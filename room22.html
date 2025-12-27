@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Diri Lengkap</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 14px;
+            max-width: 560px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        /* FOTO PROFIL */
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #e2e8f0;
+            margin-bottom: 10px;
+        }
+
+        .profile h1 {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        .profile p {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        /* DATA */
+        .data {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            row-gap: 14px;
+            font-size: 15px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #334155;
+        }
+
+        .value {
+            color: #1e293b;
+        }
+
+        /* LINK */
+        .link-bottom {
+            margin-top: 35px;
+            text-align: center;
+        }
+
+        .link-bottom a {
+            display: inline-block;
+            padding: 12px 40px;
+            background: #334155;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .link-bottom a:hover {
+            background: #1e293b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <!-- FOTO PROFIL -->
+        <div class="profile">
+            <img src="foto.jpg" alt="Foto Profil">
+            <h1>Nama Lengkap</h1>
+            <p>Deskripsi Singkat / Status</p>
+        </div>
+
+        <!-- DATA DIRI -->
+        <div class="data">
+            <div class="label">Tempat, Tgl Lahir</div>
+            <div class="value">Kota, 01 Januari 2000</div>
+
+            <div class="label">Jenis Kelamin</div>
+            <div class="value">Laki-laki / Perempuan</div>
+
+            <div class="label">Alamat</div>
+            <div class="value">Alamat lengkap Anda</div>
+
+            <div class="label">Pendidikan</div>
+            <div class="value">SMA / D3 / S1</div>
+
+            <div class="label">Pekerjaan</div>
+            <div class="value">Pelajar / Mahasiswa / Pekerja</div>
+
+            <div class="label">Email</div>
+            <div class="value">email@email.com</div>
+
+            <div class="label">No. HP</div>
+            <div class="value">08xxxxxxxxxx</div>
+
+            <div class="label">Hobi</div>
+            <div class="value">Membaca, Olahraga, dll</div>
+        </div>
+
+        <!-- LINK -->
+        <div class="link-bottom">
+            <a href="room3.html">Kembali</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
